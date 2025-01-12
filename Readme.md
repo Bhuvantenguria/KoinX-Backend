@@ -35,7 +35,7 @@ Welcome to the **KoinX Backend Assignment**! This project is a backend service d
 
 #### 📥 Example Request:
 ```bash
-GET https://koin-x-backend-assignment-ankur-singhs-projects-b0407e94.vercel.app/api/v1/crypto/stats
+GET https://koinx-backend-eq0e.onrender.com/api/v1/crypto/stats
 BODY: {"coin": "bitcoin"}
 ```
 
@@ -53,7 +53,7 @@ BODY: {"coin": "bitcoin"}
 
 ### 2️⃣ Get Price Deviation
 
-- **Endpoint**: `/api/v1/crypto/deviation`
+- **Endpoint**: `https://koinx-backend-eq0e.onrender.com/api/v1/crypto/deviation`
 - **Method**: `GET`
 - **Purpose**: Fetch the standard deviation of a cryptocurrency's price over a specific time period.
 
@@ -66,7 +66,7 @@ BODY: {"coin": "bitcoin"}
 
 #### 📥 Example Request:
 ```bash
-GET https://koin-x-backend-assignment-ankur-singhs-projects-b0407e94.vercel.app/api/v1/crypto/deviation
+GET https://koinx-backend-eq0e.onrender.com/api/v1/crypto/deviation
 BODY: {"coin": "ethereum"}
 ```
 
